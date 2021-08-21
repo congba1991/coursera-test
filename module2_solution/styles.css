@@ -7,19 +7,19 @@
 h1 {
 	color: solid black;
 	text-align: center;
+  font-size: 300%;
 }
 
 p {
-	padding: 10px;
-	margin: 0;
+	padding: 5px;
 }
 
 .container {
 	border: none;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
 	padding: 10px;
 }
 
@@ -40,8 +40,6 @@ section {
 	width: 30%;
 	margin-left: 70%;
   margin-top: 0;
-	font-weight: bold;
-	font-size: 125%;
 	padding: 5px;
 	background-color: #b35b41;
 }
@@ -52,8 +50,6 @@ section {
 	width: 30%;
 	margin-left: 70%;
   margin-top: 0;
-	font-weight: bold;
-	font-size: 125%;
 	padding: 5px;
 	background-color: #bb5665;
 }
@@ -64,18 +60,11 @@ section {
 	width: 30%;
 	margin-left: 70%;
   margin-top: 0;
-	font-weight: bold;
-	font-size: 125%;
 	padding: 5px;
 	background-color: #b7c79c;
 }
 
-.row {
-	width: 100%;
-}
-
 /* Desktop view */
-
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
